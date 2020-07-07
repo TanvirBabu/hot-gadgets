@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Gadgets Commerce</title>
+    <title>Hot Gadgets E-commerce</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/logo/Favicon-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon-logo.png">
     <!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap./min.css">
-	<!-- font-awesome CSS -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap./min.css">
+    <!-- font-awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -54,21 +54,68 @@
         </div>
     </header>
 
-    <!-- Banner Section -->
+    <!-- Slider/ Carousel -->
     <section class="banner-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-flex align-items-center">
-                    <div class="banner-title ">
-                        <h2>Mackbook Pro</h2>
-                        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste provident repellendus deleniti omnis amet officia, maxime voluptatum explicabo pariatur!</h6>
-                        <button class="buy-now-button">Buy Now -></button>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                           <div class="car-title">
+                               <h2>Mackbook Pro</h2>
+                               <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste provident repellendus deleniti omnis amet officia, maxime voluptatum explicabo pariatur!</h6>
+                           </div>
+                            <button class="buy-now-button">Buy Now →</button>
+                          </div>
+                          <div class="col-md-6">
+                            <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="row align-items-center">
+                        <div class="col-md-6">
+                           <div class="car-title">
+                               <h2>Google Home Mini</h2>
+                               <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste provident repellendus deleniti omnis amet officia, maxime voluptatum explicabo pariatur!</h6>
+                           </div>
+                            <button class="buy-now-button">Buy Now →</button>
+                        </div>
+                      <div class="col-md-6">
+                        <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                      </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                           <div class="car-title">
+                               <h2>JBL Speaker</h2>
+                               <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste provident repellendus deleniti omnis amet officia, maxime voluptatum explicabo pariatur!</h6>
+                           </div>
+                           <button class="buy-now-button">Buy Now →</button>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
                     </div>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/banner-products/product-1.png" alt="">
-                </div>
-            </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
         </div>
     </section>
 
@@ -86,7 +133,7 @@
                     <h5 class="card-title">iPhone 11 Pro</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <h5>$999</h5>
-                    <button class="buy-now-button">Buy Now -></button>
+                    <button class="buy-now-button">Buy Now →</button>
                   </div>
                 </div>
                 <div class="card">
@@ -95,7 +142,7 @@
                     <h5 class="card-title">Samsung Galaxy Note10+</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <h5>$799</h5>
-                    <button class="buy-now-button">Buy Now -></button>
+                    <button class="buy-now-button">Buy Now →</button>
                   </div>
                 </div>
                 <div class="card">
@@ -104,7 +151,7 @@
                     <h5 class="card-title">Redmi</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <h5>$699</h5>
-                    <button class="buy-now-button">Buy Now -></button>
+                    <button class="buy-now-button">Buy Now →</button>
                   </div>
                 </div>
               </div>
@@ -126,7 +173,7 @@
                         <h5 class="card-title">Asus VivoBook</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         <h5>$999</h5>
-                        <button class="buy-now-button">Buy Now -></button>
+                        <button class="buy-now-button">Buy Now →</button>
                       </div>
                     </div>
                     <div class="card">
@@ -135,7 +182,7 @@
                         <h5 class="card-title">Razer Blade 15</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         <h5>$799</h5>
-                        <button class="buy-now-button">Buy Now -></button>
+                        <button class="buy-now-button">Buy Now →</button>
                       </div>
                     </div>
                     <div class="card">
@@ -144,7 +191,7 @@
                         <h5 class="card-title">Xiaomi Mi NoteBook Pro</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         <h5>$699</h5>
-                        <button class="buy-now-button">Buy Now -></button>
+                        <button class="buy-now-button">Buy Now →</button>
                       </div>
                     </div>
                   </div>
@@ -161,34 +208,45 @@
             <div class="cat-bottom"></div>
 
             <div class="row">
-                <div class="col-md-6 d-flex align-items-center">
-                    <div class="row">
-                        <div class="col-md-4">
+               
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
                             <div class="catagories-logo">
                                 <img src="images/Categories/bag.png" alt="">
+                                <h4>Bag</h4>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="catagories-logo">
+                        <div class="col-md-3">
+                           <div class="row">
+                              <div class="catagories-logo">
                                 <img src="images/Categories/perfume.png" alt="">
+                                <h4>Bag</h4>
                             </div>
-                        </div
-                        <div class="col-md-4">
-                            <div class="catagories-logo">
-                                <img src="images/Categories/shoe.png" alt="">
                             </div>
-                        </div
-                    </div>
-                </div>
-
+                            <br>
+                            <br>
+                            <div class="row">
+                               <div class="catagories-logo">
+                                  <img src="images/Categories/shoe.png" alt="">
+                                  <h4>Shoes</h4>
+                                </div>
+                            </div>
+                        </div>
+                      
                 <div class="col-md-6">
                     <img src="images/Categories/pale-order.png" alt="">
                 </div>
-            </div>
-        </div>
+          </div>
+        </div>>
     </section>
 
 
+     <!-- Footer Section -->
+     <footer>
+      <div class="text-center">
+          <h6>Copyright ©2020 Hot Gadgets E-commerce. All rights reserved.</h6>
+          <h6>Deign By: <a href="https://rb.gy/13654f" target="_blank "> Tanvir Hassan</h6>
+      </div>
+  </footer
 
 
      <!-- Optional JavaScript -->
